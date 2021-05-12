@@ -1,0 +1,17 @@
+.container-1 {
+    height: 100vh;
+    max-height: calc(100vh - 60px);
+    background-color: #ff6961;
+    text-align: right;
+}
+
+.main-text {
+    padding-right: 20px;
+    align-items: center;
+}
+
+.container-2 {
+    height: 100vh;
+    max-height: 100vh;
+    background-color: #ffd1dc;
+}

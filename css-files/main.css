@@ -31,7 +31,8 @@ p {
 
 .main-nav {
     height: 60px;
-    background-color: #f8f8f8;
+    width: 100%;
+    position: fixed;
 }
 
 
@@ -50,9 +51,6 @@ p {
     text-decoration: none;
 }
 
-.main-nav a:hover {
-    border-bottom: 3px solid #000;
-}
 
 .main-nav p {
     float: left

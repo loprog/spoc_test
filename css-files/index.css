@@ -1,17 +1,55 @@
 .container-1 {
     height: 100vh;
-    max-height: calc(100vh - 60px);
-    background-color: #ff6961;
-    text-align: right;
+    background-color: #ffffdd;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr [text] 1fr 1fr 1fr;
 }
 
 .main-text {
-    padding-right: 20px;
-    align-items: center;
+    grid-row: text;
 }
 
 .container-2 {
     height: 100vh;
     max-height: 100vh;
-    background-color: #ffd1dc;
+    background-color: #faebd7;
+    justify-items: center;
+}
+
+.container-2-text {
+    text-align: center;
+    padding-top: 140px;
+    display: grid;
+    justify-content: center;
+}
+
+.container-2-text p {
+    width: 500px;
+}
+
+.container-2-box {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.box {
+    height: 422px;
+    width: 800px;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.container-3 {
+    background-color: #f0cfbc;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr [text] 1fr 6fr;
+    justify-content: center;
+}
+
+.container-3-text {
+    text-align: center;
+    grid-row: text;
 }

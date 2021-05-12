@@ -64,15 +64,38 @@
 .container-3 {
     background-color: #f0cfbc;
     height: 100vh;
-    display: grid;
-    grid-template-rows: 1fr [text] 1fr 6fr;
+    max-height: calc(100vh - 60px);
     justify-content: center;
 }
 
 .container-3-text {
     text-align: center;
-    grid-row: text;
+    padding-top: 100px;
+    display: grid;
+    justify-content: center;
 }
+
+
+.footer {
+    background-color: #333;
+    height: 60px;
+    bottom: 0px;
+    display: grid;
+    grid-template-columns: [left] 1fr 1fr [right] 1fr; 
+    color: white;
+}
+
+.footer-left {
+    grid-column: left;
+    margin: auto 20px;
+}
+
+.footer-right {
+    text-align: right;
+    grid-column: right;
+    margin: auto 20px;
+}
+
 
 
 .scroll-snap {

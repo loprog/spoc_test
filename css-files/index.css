@@ -14,7 +14,7 @@
     height: 100vh;
     max-height: 100vh;
     background-color: #faebd7;
-    justify-items: center;
+    justify-content: center;
 }
 
 .container-2-text {
@@ -29,17 +29,37 @@
 }
 
 .container-2-box {
+    margin: auto;
     display: flex;
+    flex-wrap: wrap;
     overflow-x: scroll;
+    flex-direction: column;
+    height: 422px;
+    width: 850px;
+    position: relative;
+    right: 30px;
 }
 
 .box {
-    height: 422px;
     width: 800px;
+    height: 422px;
     background-color: white;
-    margin-top: 40px;
     border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.margin-1 {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.box h3, .box p {
+    /**/
+}
+
 
 .container-3 {
     background-color: #f0cfbc;
